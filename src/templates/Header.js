@@ -7,7 +7,7 @@ const Header = () => {
               Tu App de Mudanzas
             </a>
           </h1>
-          <img class="logo" src="/images/mudanza.png" alt="mudanza-icon">
+          <img class="logo" src="https://www.transportesanson.com/img/icono-mudanza.png" alt="mudanza-icon">
 
         </div>
         <div class="Header-nav">
