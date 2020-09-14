@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "json-api": "json-server --watch ./src/json_API/api.json --port 3004",
-    "dev": "webpack-dev-server --open --mode development --progress --colors",
-    "start": "concurrently \"npm run json-api\" \"npm run dev\""
+    "dev": "webpack-dev-server --open --mode development --progress --colors"
   },
   "keywords": [
     "js"
