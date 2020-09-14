@@ -281,6 +281,6 @@ const storageClientAndOrder = (client, order) => {
     jsonOrdersData.orders.push(order)
     localStorage.setItem('clients', JSON.stringify(jsonClientsData))
     localStorage.setItem('orders', JSON.stringify(jsonOrdersData))
-    window.location.href = "http://localhost:8080/#/orders/"
+    window.location.href = "#/orders/"
 }
 export default client
