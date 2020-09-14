@@ -1,0 +1,36 @@
+{
+  "trucks": [
+    {
+      "id": 1,
+      "truck_type": "1.5 Tons",
+      "total_space": 13.2,
+      "available_space": 5,
+      "sqr_meter_price": 100,
+      "total": 5
+    },
+    {
+      "id": 2,
+      "truck_type": "3.5 Tons Small",
+      "total_space": 19.32,
+      "available_space": 19.32,
+      "sqr_meter_price": 90,
+      "total": 5
+    },
+    {
+      "id": 3,
+      "truck_type": "3.5 Tons Large",
+      "total_space": 22.81,
+      "available_space": 22.08,
+      "sqr_meter_price": 80,
+      "total": 1
+    },
+    {
+      "id": 4,
+      "truck_type": "28 Tons",
+      "total_space": 79.68,
+      "available_space": 79.68,
+      "sqr_meter_price": 60,
+      "total": 1
+    }
+  ]
+}

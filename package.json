@@ -1,0 +1,29 @@
+{
+  "name": "moving-system",
+  "version": "1.0.0",
+  "description": "Sistema de mudanza personalizada",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "json-api": "json-server --watch ./src/json_API/api.json --port 3004",
+    "dev": "webpack-dev-server --open --mode development --progress --colors",
+    "start": "concurrently \"npm run json-api\" \"npm run dev\""
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Jorge Carrión",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
