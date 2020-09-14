@@ -7,7 +7,7 @@ const Header = () => {
               Tu App de Mudanzas
             </a>
           </h1>
-          <img class="logo" src="/images/mudanza.png" alt="mudanza-icon">
+          <img class="logo" src="https://github.com/george28cs/spa-move-system/blob/gh-pages/images/mudanza.png" alt="mudanza-icon">
 
         </div>
         <div class="Header-nav">
