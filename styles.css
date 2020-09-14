@@ -34,7 +34,7 @@ h2 {
 }
 
 .img-background{
-    content: url(/images/slide_1.jpg);
+    content: url(http://www.mudanzasnortesur.cl/img/slides/slide_1.jpg);
     width: 100%;
     position: absolute;
     z-index: -1;
