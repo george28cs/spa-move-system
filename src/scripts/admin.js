@@ -55,7 +55,7 @@ const verifyRoutesExisting = () => {
     const availableRoutes = JSON.parse(getTruckRoutes())
     const pElement = document.getElementById("no-routes")
     if (availableRoutes.routes.length == 0){
-        pElement.innerHTML = "No hay rutas existentes, aguegue alguna primero"
+        pElement.innerHTML = "No hay rutas existentes, agregue alguna primero"
     } else {
         printTable()
     }

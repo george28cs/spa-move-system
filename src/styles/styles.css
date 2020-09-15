@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: rgb(193, 192, 199);
+    background: rgb(235, 239, 241);
     font-family: 'Public Sans', sans-serif;
 }
 h1 {
@@ -41,7 +41,7 @@ h2 {
 }
 .Header-main{
     margin-top: 0px;
-    background-color:white;
+    background: rgb(235, 239, 241);
     
 }
 .Header-main a, .admin-header a {
@@ -55,21 +55,21 @@ h2 {
     z-index: 2;
     padding-top: 1px;
     padding-bottom: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .select-route__title{
     background-color: rgba(0, 0, 0, 0.322);
     z-index: 2;
     padding-top: 1px;
     padding-bottom: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .orders__title{
     background-color: rgba(0, 0, 0, 0.322);
     z-index: 2;
     padding-top: 1px;
     padding-bottom: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .search-bar__title{
     background-color: rgba(0, 0, 0, 0.322);
@@ -96,4 +96,105 @@ h2 {
     display: block;
     text-align: center;
 }
-
+.routes{
+    background: rgba(65, 63, 63, 0.322);
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: white 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.routes-input {
+    color: rgb(150, 146, 146);
+    background: rgb(230, 230, 230);
+    font-size: 14px;
+    width: 100%;
+    border: rgba(0, 0, 0, 0.151) 1px;
+    border-style: solid;
+}
+.routes-label{
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 15px;
+    font-weight: bolder;
+}
+.route-forms{
+    width: 70%;
+}
+.add-routes{
+    margin-top: 10px;
+    width: 50%;
+    color: white;
+    background: rgba(68, 95, 126, 0.445);
+    height: 25px;
+    border: rgba(255, 255, 255, 0.555) 1px;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.print-routes-section{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.no-routes{
+    text-align: center;
+}
+.print-routes{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+table{
+  border: rgba(0, 0, 0, 0.486); 
+  border-style: solid; 
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.manage-routes{
+    padding-top: 20px;
+    margin-top: auto;
+    width: 100%;
+    
+}
+.admin-routes-tittle{
+    text-align: center;
+}
+.get-trucks{
+    padding-top: 10px;
+}
+.routes-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 30%;
+    color: rgb(15, 15, 15);
+    background: rgba(68, 95, 126, 0.445);
+    height: 25px;
+    border: rgba(97, 94, 94, 0.555) 1px;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.print-trucks{
+    padding-top: 10px;
+}
+td[contenteditable="true"] {
+    background-color: rgb(216, 211, 211);
+}
+td[contenteditable="true"]:focus {
+    background-color: rgba(255, 255, 0, 0.63);
+}
